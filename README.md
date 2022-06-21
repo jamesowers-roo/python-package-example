@@ -11,7 +11,7 @@ In this section we describe how install and optionally how to run the most impor
 # 1. Clone this repo
 git_home=$HOME/git  # this is the directory to clone the repo into, change this to wherever you like
 mkdir -p ${git_home}
-repo_name=roo-python-package-example  # change this to the name of your repo
+repo_name=python-package-example  # change this to the name of your repo
 repo_path=${git_home}/${repo_name}
 git clone git@github.com:jamesowers-roo/${repo_name}.git $repo_path
 
