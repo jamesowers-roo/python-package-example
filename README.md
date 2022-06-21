@@ -34,3 +34,6 @@ example_python_script
 example_python_executable --help
 example_python_executable --sequence-length 20
 ```
+
+Alternatively, you can install via github:
+`pip install git+https://${GITHUB_TOKEN}@github.com/jamesowers-roo/python-package-example.git@${VERSION}`
