@@ -25,4 +25,4 @@ poetry install
 ```
 
 Alternatively, you can install via github:
-`pip install git+https://${GITHUB_TOKEN}@github.com/user/project.git@${VERSION}`
+`pip install git+https://${GITHUB_TOKEN}@github.com/jamesowers-roo/python-package-example.git@${VERSION}`
