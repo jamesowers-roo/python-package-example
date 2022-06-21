@@ -17,7 +17,7 @@ git clone git@github.com:jamesowers-roo/${repo_name}.git $repo_path
 
 # 2. Set up a virtual env and activate it
 #     - I highly recommend conda for virtual env management, it's quick to install.
-conda create -n $repo_name python=3.10 --yes
+conda create -n $repo_name python=3.9 --yes
 conda activate $repo_name
 
 # 3. Install the package and scripts, along with:
