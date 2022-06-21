@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+"""A python script which illustrates use of the package."""
+import python_package_name
+from python_package_name.example_module import get_sequence
+
+if __name__ == "__main__":
+    print(
+        "This is a python script available on your path when the package is installed"
+    )
+    print(
+        "You can import your package and use within this script e.g.\n"
+        f"returning the version number - {python_package_name.__version__}\n"
+        f"or running your function get_sequence(5): {get_sequence(5)}"
+    )

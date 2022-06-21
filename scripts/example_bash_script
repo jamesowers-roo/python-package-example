@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "This is a bash script available on your path when the package is installed"
+echo "They will be available on your path. Your PATH=$PATH"
+echo "They are specifically stored here:"
+which example_bash_script
+which example_python_executable
+which example_python_script
